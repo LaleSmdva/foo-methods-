@@ -62,30 +62,30 @@
 #endregion
 
 #region indeksinDeyeri
-Console.WriteLine( " ");
+//Console.WriteLine( " ");
 #endregion
 
 
 #region replace letter
-//string word = "test";
+string word = "test";
 
-//string Replace(string word,char oldLetter,char newLetter)
-//{
-//    string newWord = "";
-//    for (int i = 0; i < word.Length; i++)
-//	{
-//		if(word[i]==oldLetter )
-//		{
-//			newWord += newLetter;
-//		}
-//		else
-//		{
-//			newWord += word[i];
-//		}
-//	}
-//	return newWord;
-//}
-//Console.WriteLine(Replace(word,'t','d'));
+string Replace(string word, char oldLetter, char newLetter)
+{
+	string newWord = "";
+	for (int i = 0; i < word.Length; i++)
+	{
+		if (word[i] == oldLetter)
+		{
+			newWord += newLetter;
+		}
+		else
+		{
+			newWord += word[i];
+		}
+	}
+	return newWord;
+}
+Console.WriteLine(Replace(word, 't', 'd'));
 #endregion
 
 #region reverseText
@@ -101,4 +101,22 @@ Console.WriteLine( " ");
 //}
 //Console.WriteLine("Reverse is: " + Reverse("lala"));
 #endregion
+#region Join
 
+//string Join(char value, int[]arr)
+//{
+//    string final = string.Empty;
+//    for (int i = 0; i < arr.Length; i++)
+//	{
+	
+//        final += arr[i];
+//		if(i!=arr.Length-1)
+//		{
+//            final += value;
+//        }
+			
+//        	}
+//	return final;
+//}
+//Console.WriteLine(Join('-',new int[] {1,2,3}));
+#endregion

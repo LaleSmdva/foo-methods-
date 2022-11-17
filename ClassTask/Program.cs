@@ -62,7 +62,7 @@
 #endregion
 
 #region indeksinDeyeri
-
+Console.WriteLine( " ");
 #endregion
 
 
